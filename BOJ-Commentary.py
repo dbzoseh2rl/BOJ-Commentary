@@ -1,10 +1,2 @@
-1330
-A, B = map(int, input().split())
-# print('>') if A > B else print('<') if A < B else print('==')
-
-if A > B:
-    print('>')
-elif A < B:
-    print('<')
-elif A == B:
-    print('==')
+# 2557
+# print('Hello World')
