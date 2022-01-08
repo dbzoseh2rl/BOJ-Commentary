@@ -34,3 +34,35 @@ print(num1 * (num2%10))
 print(num1 * ((num2%100)//10))
 print(num1 * (num2//100))
 print(num1 * num2)
+
+9498
+a = int(input())
+if a >= 90:
+    print('A')
+elif a >= 80:
+    print('B')
+elif a >= 70:
+    print('C')
+elif a >= 60:
+    print('D')
+else:
+    print('F')
+
+2753
+n = int(input())
+if n % 4 == 0 and n % 100 != 0 or n % 400 == 0:
+    print(1)
+else:
+    print(0)
+
+14681
+a = int(input())
+b = int(input())
+if a > 0 and b > 0:
+    print(1)
+elif a > 0 and b < 0:
+    print(4)
+elif a < 0 and b > 0:
+    print(2)
+else:
+    print(3)
