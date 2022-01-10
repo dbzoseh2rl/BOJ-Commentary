@@ -66,3 +66,22 @@ elif a < 0 and b > 0:
     print(2)
 else:
     print(3)
+
+1330
+A, B = map(int, input().split())
+# print('>') if A > B else print('<') if A < B else print('==')
+
+if A > B:
+    print('>')
+elif A < B:
+    print('<')
+elif A == B:
+    print('==')
+
+
+# 2438
+n = int(input())
+for i in range(1, n + 1):
+    for j in range(i):
+        print("*", end="")
+    print()
