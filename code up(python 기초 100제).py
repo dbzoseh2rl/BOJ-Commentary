@@ -29,3 +29,7 @@ print(n)
 # 6010
 z = int(input())
 print(z)
+
+# 6011
+z = float(input())
+print(z)
