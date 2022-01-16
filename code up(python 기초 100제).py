@@ -33,3 +33,8 @@ print(z)
 # 6011
 z = float(input())
 print(z)
+
+# 6012
+a = input()
+b = input()
+print(a, b, sep='\n')
