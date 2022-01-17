@@ -38,3 +38,9 @@ print(z)
 a = input()
 b = input()
 print(a, b, sep='\n')
+
+# 6013
+a = input()
+b = input()
+print(b)
+print(a)
