@@ -44,3 +44,9 @@ a = input()
 b = input()
 print(b)
 print(a)
+
+# 6014
+n = float(input())
+print(n)
+print(n)
+print(n)
