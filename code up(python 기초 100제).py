@@ -50,3 +50,8 @@ n = float(input())
 print(n)
 print(n)
 print(n)
+
+# 6015
+a, b = map(int, input().split())
+print(a)
+print(b)
