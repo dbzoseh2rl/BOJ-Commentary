@@ -55,3 +55,8 @@ print(n)
 a, b = map(int, input().split())
 print(a)
 print(b)
+
+# 6016
+a, b = input().split()
+print(b, end=' ')
+print(a)
