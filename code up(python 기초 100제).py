@@ -60,3 +60,7 @@ print(b)
 a, b = input().split()
 print(b, end=' ')
 print(a)
+
+# 6017
+s = input()
+print(s, s, s)
