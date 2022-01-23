@@ -64,3 +64,7 @@ print(a)
 # 6017
 s = input()
 print(s, s, s)
+
+# 6018
+h, m = map(int, input().split(':'))
+print(h, m, sep=':')
