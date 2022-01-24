@@ -68,3 +68,7 @@ print(s, s, s)
 # 6018
 h, m = map(int, input().split(':'))
 print(h, m, sep=':')
+
+# 6019
+y, m, d = input().split('.')
+print(d, m, y, sep='-')
