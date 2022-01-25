@@ -72,3 +72,7 @@ print(h, m, sep=':')
 # 6019
 y, m, d = input().split('.')
 print(d, m, y, sep='-')
+
+# 6020
+f, e = input().split('-')
+print(f + e)
