@@ -76,3 +76,11 @@ print(d, m, y, sep='-')
 # 6020
 f, e = input().split('-')
 print(f + e)
+
+# 6021
+s = input()
+print(s[0])
+print(s[1])
+print(s[2])
+print(s[3])
+print(s[4])
