@@ -96,3 +96,8 @@ print(m)
 # 6024
 w1, w2 = input().split()
 print(w1 + w2)
+
+# 6025
+a, b = input().split()
+c = int(a) + int(b)
+print(c)
