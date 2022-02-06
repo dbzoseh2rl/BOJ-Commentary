@@ -101,3 +101,13 @@ print(w1 + w2)
 a, b = input().split()
 c = int(a) + int(b)
 print(c)
+
+# 6026
+a = input()
+b = input()
+c = float(a) + float(b)
+print(c)
+
+# 2진수      bin( 정수 )
+# 8진수      oct( 정수 )
+# 16진수    hex( 정수 )
