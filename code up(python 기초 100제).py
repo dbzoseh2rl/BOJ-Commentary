@@ -111,3 +111,8 @@ print(c)
 # 2진수      bin( 정수 )
 # 8진수      oct( 정수 )
 # 16진수    hex( 정수 )
+
+# 6027
+a = input()
+n = int(a)
+print("%x" % n)
