@@ -116,3 +116,8 @@ print(c)
 a = input()
 n = int(a)
 print("%x" % n)
+
+# 6028
+a = input()
+n = int(a)
+print("%X" % n)
