@@ -121,3 +121,8 @@ print("%x" % n)
 a = input()
 n = int(a)
 print("%X" % n)
+
+# 6029
+a = input()
+n = int(a, 16)
+print("%o" % n)
