@@ -126,3 +126,7 @@ print("%X" % n)
 a = input()
 n = int(a, 16)
 print("%o" % n)
+
+# 6030
+n = ord(input())
+print(n)
