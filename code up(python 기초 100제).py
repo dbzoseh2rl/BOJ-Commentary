@@ -130,3 +130,7 @@ print("%o" % n)
 # 6030
 n = ord(input())
 print(n)
+
+# 6031
+c = int(input())
+print(chr(c))
