@@ -134,3 +134,7 @@ print(n)
 # 6031
 c = int(input())
 print(chr(c))
+
+# 6032
+n = int(input())
+print(-n)
