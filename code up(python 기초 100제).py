@@ -142,3 +142,8 @@ print(-n)
 # 6033
 n = ord(input()) + 1
 print(chr(n))
+
+# 6034
+a, b = map(int, input().split())
+c = int(a) - int(b)
+print(c)
