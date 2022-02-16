@@ -147,3 +147,8 @@ print(chr(n))
 a, b = map(int, input().split())
 c = int(a) - int(b)
 print(c)
+
+# 6035
+a, b = map(float, input().split())
+m = float(a) * float(b)
+print(m)
