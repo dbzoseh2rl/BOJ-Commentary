@@ -152,3 +152,7 @@ print(c)
 a, b = map(float, input().split())
 m = float(a) * float(b)
 print(m)
+
+# 6036
+a, b = input().split()
+print(a * int(b))
