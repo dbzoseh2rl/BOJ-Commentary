@@ -156,3 +156,7 @@ print(m)
 # 6036
 a, b = input().split()
 print(a * int(b))
+
+n = input()
+s = input()
+print(int(n) * s)
