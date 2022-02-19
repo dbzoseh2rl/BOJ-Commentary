@@ -157,6 +157,12 @@ print(m)
 a, b = input().split()
 print(a * int(b))
 
+#6037
 n = input()
 s = input()
 print(int(n) * s)
+
+# 6038
+a, b = map(int, input().split())
+c = int(a)**int(b)
+print(c)
