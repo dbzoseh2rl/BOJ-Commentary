@@ -166,3 +166,8 @@ print(int(n) * s)
 a, b = map(int, input().split())
 c = int(a)**int(b)
 print(c)
+
+# 6039
+a, b = map(float, input().split())
+c = float(a)**float(b)
+print(c)
