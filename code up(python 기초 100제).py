@@ -171,3 +171,8 @@ print(c)
 a, b = map(float, input().split())
 c = float(a)**float(b)
 print(c)
+
+# 6040
+a, b = map(int, input().split())
+c = int(a) // int(b)
+print(c)
