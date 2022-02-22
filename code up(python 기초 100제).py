@@ -176,3 +176,8 @@ print(c)
 a, b = map(int, input().split())
 c = int(a) // int(b)
 print(c)
+
+# 6041
+a, b = map(int, input().split())
+c = int(a) % int(b)
+print(c)
