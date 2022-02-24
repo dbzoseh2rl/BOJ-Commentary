@@ -181,3 +181,7 @@ print(c)
 a, b = map(int, input().split())
 c = int(a) % int(b)
 print(c)
+
+# 6042
+a = float(input())
+print(format(a, ".2f"))
