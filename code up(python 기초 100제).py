@@ -185,3 +185,8 @@ print(c)
 # 6042
 a = float(input())
 print(format(a, ".2f"))
+
+# 6043
+a, b = map(float, input().split())
+c = float(a) / float(b)
+print(format(c, ".3f"))
