@@ -207,7 +207,3 @@ print(forth)
 print(fifth)
 print(format(sixth, ".2f"))
 
-# 6045
-a, b, c = map(int, input().split())
-x = [a, b, c]
-print(sum(x), round(sum(x) / len(x), 2))
