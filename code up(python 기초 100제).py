@@ -211,3 +211,10 @@ print(format(sixth, ".2f"))
 a, b, c = map(int, input().split())
 x = [a, b, c]
 print(sum(x), round(sum(x) / len(x), 2))
+
+# 6046      # 비트 쉬프트 연산 <<, >> #
+n = int(input())
+print(n << 1)
+# print(n >> 1)  #10을 반으로 나눈 값인 5출력
+# print(n << 2)  #10을 4배 한 값인 40 이 출력
+# print(n >> 2)  #10을 반으로 나눈 후 다시 반으로 나눈 값인 2 출력
