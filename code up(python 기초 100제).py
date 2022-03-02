@@ -218,3 +218,8 @@ print(n << 1)
 # print(n >> 1)  #10을 반으로 나눈 값인 5출력
 # print(n << 2)  #10을 4배 한 값인 40 이 출력
 # print(n >> 2)  #10을 반으로 나눈 후 다시 반으로 나눈 값인 2 출력
+
+# 6047
+a, b = map(int, input().split())
+print(int(a) << int(b))
+# print(a << b)
