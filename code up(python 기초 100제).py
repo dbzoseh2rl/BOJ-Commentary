@@ -223,3 +223,10 @@ print(n << 1)
 a, b = map(int, input().split())
 print(int(a) << int(b))
 # print(a << b)
+
+# 6048
+a, b = map(int, input().split())
+if a < b:
+    print(True)
+elif a >= b:
+    print(False)
