@@ -230,3 +230,10 @@ if a < b:
     print(True)
 elif a >= b:
     print(False)
+
+# 6049
+a, b = map(int, input().split())
+if a == b:
+    print(True)
+else:
+    print(False)
