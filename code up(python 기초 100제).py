@@ -237,3 +237,10 @@ if a == b:
     print(True)
 else:
     print(False)
+
+# 6050
+a, b = map(int, input().split())
+if a <= b:
+    print('True')
+elif a != b:
+    print('False')
