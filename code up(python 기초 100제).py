@@ -251,3 +251,7 @@ if a != b:
     print('True')
 elif a == b:
     print('False')
+
+# 6052
+n = int(input())
+print(bool(n))
