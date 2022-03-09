@@ -255,3 +255,7 @@ elif a == b:
 # 6052
 n = int(input())
 print(bool(n))
+
+# 6053
+a = bool(int(input()))
+print(not a)
