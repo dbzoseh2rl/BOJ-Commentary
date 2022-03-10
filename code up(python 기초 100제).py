@@ -259,3 +259,7 @@ print(bool(n))
 # 6053
 a = bool(int(input()))
 print(not a)
+
+# 6054
+a, b = input().split()
+print(bool(int(a)) and bool(int(b)))
