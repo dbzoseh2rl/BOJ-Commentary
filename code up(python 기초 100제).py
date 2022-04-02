@@ -267,3 +267,9 @@ print(bool(int(a)) and bool(int(b)))
 # 6055
 a, b = input().split()
 print(bool(int(a)) or bool(int(b)))
+
+# 6056
+a, b = map(int, input().split())
+c = bool(int(a))
+d = bool(int(b))
+print((c and (not d)) or ((not c) and d))
