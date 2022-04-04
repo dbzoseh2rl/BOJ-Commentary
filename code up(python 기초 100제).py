@@ -279,3 +279,7 @@ a, b = map(int, input().split())
 a = int(a)
 b = int(b)
 print(bool(a) == bool(b))
+
+# 6058
+a, b = map(int, input().split())
+print(not a and not b)
