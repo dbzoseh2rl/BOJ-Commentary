@@ -283,3 +283,7 @@ print(bool(a) == bool(b))
 # 6058
 a, b = map(int, input().split())
 print(not a and not b)
+
+# 6059
+a = int(input())
+print(~a)
