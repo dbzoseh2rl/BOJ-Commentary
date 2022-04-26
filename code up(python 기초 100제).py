@@ -287,3 +287,8 @@ print(not a and not b)
 # 6059
 a = int(input())
 print(~a)
+
+# 6060
+a, b = map(int, input().split())
+x = a & b
+print(x)
