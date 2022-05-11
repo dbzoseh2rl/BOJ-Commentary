@@ -110,3 +110,11 @@ for i in range(0, n + 1):
     for k in range(n - i):
         print("*", end="")
     print()
+
+# 25083
+print("         ,r'\"7")
+print("r`-_   ,'  ,/")
+print(" \. \". L_r'")
+print("   `~\/")
+print("      |")
+print("      |")
