@@ -118,3 +118,11 @@ print(" \. \". L_r'")
 print("   `~\/")
 print("      |")
 print("      |")
+
+
+# 1712
+a, b, c = map(int, input().split())
+if b >= c:   # =하나 차이로 런타임 에러 뜨고 안뜨고
+    print(-1)
+else:
+    print(a//(c - b) + 1)
