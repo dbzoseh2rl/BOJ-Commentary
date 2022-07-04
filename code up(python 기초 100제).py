@@ -292,3 +292,8 @@ print(~a)
 a, b = map(int, input().split())
 x = a & b
 print(x)
+
+# 6061
+a, b = map(int, input().split())
+x = a | b
+print(x)
