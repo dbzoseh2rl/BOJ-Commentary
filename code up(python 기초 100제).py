@@ -298,7 +298,3 @@ a, b = map(int, input().split())
 x = a | b
 print(x)
 
-# 6062
-a, b = map(int, input().split())
-x = a ^ b
-print(x)
