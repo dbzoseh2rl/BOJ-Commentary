@@ -302,3 +302,8 @@ print(x)
 a, b = map(int, input().split())
 x = a ^ b
 print(x)
+
+# 6063
+a, b = map(int, input().split())
+c = (a if (a >= b) else b)
+print(c)
