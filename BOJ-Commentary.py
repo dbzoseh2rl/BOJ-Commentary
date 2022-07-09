@@ -136,3 +136,7 @@ if (v - b) % (a - b) != 0:
 else:
     day = ((v - b) // (a - b))
 print(day)
+
+# 11382
+A, B, C = map(int, input().split())
+print(A + B + C)
