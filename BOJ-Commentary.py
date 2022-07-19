@@ -158,3 +158,10 @@ print(((A % C) * (B % C)) % C)
 #2420
 n, m = map(int, input().split())
 print(abs(n - m))
+
+# 2475
+n = list(map(int, input().split()))
+sum = 0
+for i in n:
+    sum += i * i
+print(sum % 10)
