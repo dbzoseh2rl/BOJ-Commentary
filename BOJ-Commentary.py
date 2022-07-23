@@ -178,3 +178,16 @@ y = list(map(int, sys.stdin.readline().split()))
 a = max(y)
 b = min(y)
 print(a * b)
+
+
+# 10699
+import datetime
+print(str(datetime.datetime.now())[:10])
+
+from datetime import datetime
+now = datetime.now()
+print(now.date())
+
+import datetime
+now = datetime.datetime.now()
+print(str(now)[:10])
