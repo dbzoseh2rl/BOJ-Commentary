@@ -409,3 +409,10 @@ n = int(input())
 while n != 0:
   print(n - 1)
   n = n - 1
+
+# 6074
+c = ord(input())
+t = ord('a')
+while t <= c:
+  print(chr(t), end=' ')
+  t += 1
