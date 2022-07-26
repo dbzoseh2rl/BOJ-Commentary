@@ -191,3 +191,14 @@ print(now.date())
 import datetime
 now = datetime.datetime.now()
 print(str(now)[:10])
+
+# 2750
+n = int(input())
+s = []
+for i in range(n):
+    a = int(input())
+    s.append(a)
+s.sort()
+
+for s in s:
+    print(s)
