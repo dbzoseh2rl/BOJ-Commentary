@@ -421,3 +421,12 @@ while t <= c:
 n = int(input())
 for i in range(n + 1):
     print(i, sep=' ')
+
+# 2751
+import sys
+n = int(input())
+l = []
+for i in range(n):
+    l.append(int(sys.stdin.readline()))
+for l in sorted(l):
+    print(l)
