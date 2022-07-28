@@ -416,3 +416,8 @@ t = ord('a')
 while t <= c:
   print(chr(t), end=' ')
   t += 1
+
+# 6075
+n = int(input())
+for i in range(n + 1):
+    print(i, sep=' ')
