@@ -452,3 +452,11 @@ for i in range(1, n + 1):
 n = int(input(), 16)
 for i in range(1, 16):
     print('%X*%X=%X' % (n, i, n * i))
+
+# 6082
+n = int(input())
+for i in range(1, n + 1):
+    if i % 10 == 3 or i % 10 == 6 or i % 10 == 9:
+        print("X", end=' ')
+    else:
+        print(i, end=' ')
