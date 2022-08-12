@@ -479,4 +479,4 @@ while True:
   c += 1
   if s >= n:
     break
-print(s)
+print(s);
