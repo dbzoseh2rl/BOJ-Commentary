@@ -460,3 +460,12 @@ for i in range(1, n + 1):
         print("X", end=' ')
     else:
         print(i, end=' ')
+
+# 6083
+r, g, b = map(int, input().split())   # r,g,b를 입력받는다
+n = 0       # 개수를 보여줄 n선언
+for i in range(r):
+    for j in range(g):
+        for k in range(b):
+            print(i, j, k)
+            n += 1
