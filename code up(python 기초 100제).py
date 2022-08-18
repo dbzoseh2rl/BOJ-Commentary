@@ -500,3 +500,8 @@ a, r, n = map(int, input().split())
 for i in range(2, n + 1):
     a *= r
 print(a)
+
+a, m, d, n = map(int, input().split())
+for i in range(1, n):
+    a = a * m + d
+print(a)
