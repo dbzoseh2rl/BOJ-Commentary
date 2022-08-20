@@ -501,7 +501,16 @@ for i in range(2, n + 1):
     a *= r
 print(a)
 
+# 6090
 a, m, d, n = map(int, input().split())
 for i in range(1, n):
     a = a * m + d
 print(a)
+
+# 6091
+d = 1
+a, b, c = map(int, input().split())
+d = 1
+while d % a != 0 or d % b != 0 or d % c !=0:
+    d += 1
+print(d)
