@@ -528,3 +528,10 @@ n = int(input())
 a = input().split()
 for i in range(n-1, -1, -1):
   print(a[i], end=' ')
+
+
+# 6094
+num = int(input())
+numlist = map(int, input().split())
+a = min(numlist)
+print(a)
