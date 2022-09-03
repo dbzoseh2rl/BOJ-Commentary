@@ -541,3 +541,15 @@ for i in range(20) :
   d.append([])         #리스트 안에 다른 리스트 추가해 넣기
   for j in range(20) :
     d[i].append(0)    #리스트 안에 들어있는 리스트 안에 0 추가해 넣기
+
+
+# 6096
+d = []
+for i in range(20):
+    d.append([])
+    for j in range(20):
+        d[i].append(0)
+for i in range(19):
+    a = input().split()
+    for j in range(19):
+        d[i+1][j+1] = int(a[j])
