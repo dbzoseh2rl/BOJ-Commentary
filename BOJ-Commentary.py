@@ -250,3 +250,30 @@ elif m < 45 and n > 0:
     print(n - 1, m + 15)
 else:
     print(23, m + 15)
+
+# 2581
+#시간초과
+t = int(input())
+for i in range(t + 1):
+    a, b = map(int, input().split())
+    h = a ** b
+    print(h % 10)
+
+# 통과된 코드
+import sys
+input = sys.stdin.readline
+T = int(input())
+value = []
+for i in range(T):
+    a, b = map(int, input().split())
+    b = b % 4
+    if b % 4 == 0:
+        b = 4
+    s = a ** b
+    if s % 10 == 0:
+        value.append(10)
+    else:
+        value.append(s % 10)
+
+for i in value:
+    print(i)
