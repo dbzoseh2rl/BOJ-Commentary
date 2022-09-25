@@ -277,3 +277,15 @@ for i in range(T):
 
 for i in value:
     print(i)
+
+
+# 2231
+N = int(input())
+for i in range(N):
+    temp = sum(map(int, str(i)))
+    result = i + temp
+    if result == N:
+        print(i)
+        break
+else:
+    print(0)
