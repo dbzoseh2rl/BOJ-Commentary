@@ -241,7 +241,7 @@ for i in range(1, n+1):
     s += (n//i) * i
 print(s)
 
-# 2884        //git 안함
+# 2884
 import sys
 n, m = map(int, sys.stdin.readline().split())
 if m > 44:
