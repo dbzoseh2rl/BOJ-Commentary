@@ -279,13 +279,13 @@ for i in value:
     print(i)
 
 
-# 2231
-N = int(input())
-for i in range(N):
-    temp = sum(map(int, str(i)))
-    result = i + temp
-    if result == N:
-        print(i)
-        break
-else:
-    print(0)
+# 1546
+import sys
+n = int(input())
+x = list(map(int, sys.stdin.readline().split()))
+y = max(x)
+sum = 0
+for i in range(n):
+    x[i] = x[i]/y * 100
+    sum += x[i]
+print(sum/n)
