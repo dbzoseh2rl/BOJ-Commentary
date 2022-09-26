@@ -289,3 +289,7 @@ for i in range(n):
     x[i] = x[i]/y * 100
     sum += x[i]
 print(sum/n)
+
+# 10926
+a = str(input())
+print(a + "??!")
