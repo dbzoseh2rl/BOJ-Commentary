@@ -323,4 +323,3 @@ print(str(datetime.datetime.now())[:10])
 from datetime import datetime
 now = datetime.now()
 print(now.date())
-
