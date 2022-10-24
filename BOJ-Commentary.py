@@ -316,10 +316,3 @@ for i in range(0, n + 1):
         print("*", end="")
     print()
 
-# 10699
-import datetime
-print(str(datetime.datetime.now())[:10])
-
-from datetime import datetime
-now = datetime.now()
-print(now.date())
