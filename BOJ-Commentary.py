@@ -308,7 +308,6 @@ for i in range(N):
         sum += score
     print(sum)
 
-
 # 2440
 n = int(input())
 for i in range(0, n + 1):
@@ -316,3 +315,11 @@ for i in range(0, n + 1):
         print("*", end="")
     print()
 
+# 2441
+n = int(input())
+for i in range(0, n + 1):
+    for j in range(i):
+        print(" ", end="")
+    for k in range(n - i):
+        print("*", end="")
+    print()
