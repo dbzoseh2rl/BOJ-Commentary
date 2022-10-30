@@ -341,3 +341,6 @@ for i in range(0, n + 1):
     for k in range(2*n - 2*i - 1):
         print("*", end="")
     print()
+    # 다른 풀이
+for l in range(5 - i):
+        print(" ", end="")
