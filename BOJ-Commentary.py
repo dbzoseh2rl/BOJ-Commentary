@@ -344,3 +344,5 @@ for i in range(0, n + 1):
     # 다른 풀이
 for l in range(5 - i):
         print(" ", end="")
+
+# git test
