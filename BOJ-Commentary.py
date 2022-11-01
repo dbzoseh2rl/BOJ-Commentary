@@ -347,3 +347,10 @@ for l in range(5 - i):
 
 # git test
 # git test 2
+
+# 2562  # put.append 밑에 들여쓰기 잘해야됨
+put = []
+for i in range(9):
+    put.append(int(input()))
+print(max(put))
+print(put.index(max(put)) + 1)
