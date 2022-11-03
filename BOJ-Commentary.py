@@ -348,9 +348,19 @@ for l in range(5 - i):
 # git test
 # git test 2
 
-# 2562  # put.append 밑에 들여쓰기 잘해야됨
+# 2562
 put = []
 for i in range(9):
     put.append(int(input()))
 print(max(put))
 print(put.index(max(put)) + 1)
+
+# 2577          ****************
+a = int(input())
+b = int(input())
+c = int(input())
+d = str(a * b * c)
+d = list(d)
+# print(d)
+for i in range(0, 10):
+    print(d.count(str(i)))
