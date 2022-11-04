@@ -355,7 +355,7 @@ for i in range(9):
 print(max(put))
 print(put.index(max(put)) + 1)
 
-# 2577          ****************
+# 2577
 a = int(input())
 b = int(input())
 c = int(input())
@@ -364,3 +364,9 @@ d = list(d)
 # print(d)
 for i in range(0, 10):
     print(d.count(str(i)))
+
+# 2739
+n = int(input())
+for i in range(1, 10):
+    a = n * i
+    print(n, "*", i, "=", a)
