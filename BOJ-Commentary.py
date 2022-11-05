@@ -370,3 +370,34 @@ n = int(input())
 for i in range(1, 10):
     a = n * i
     print(n, "*", i, "=", a)
+
+# 2754
+n = str(input())
+a = 0
+if n == "A+":
+    a = 4.3
+elif n == "A0":
+    a = 4.0
+elif n == "A-":
+    a = 3.7
+elif n == "B+":
+    a = 3.3
+elif n == "B0":
+    a = 3.0
+elif n == "B-":
+    a = 2.7
+elif n == "C+":
+    a = 2.3
+elif n == "C0":
+    a = 2.0
+elif n == "C-":
+    a = 1.7
+elif n == "D+":
+    a = 1.3
+elif n == "D0":
+    a = 1.0
+elif n == "D-":
+    a = 0.7
+elif n == "F":
+    a = 0.0
+print(a)
