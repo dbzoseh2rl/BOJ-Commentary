@@ -477,5 +477,3 @@ print('''                                                           :8DDDDDDDDDD
                                                 ?DNNDD?~DD          ~NN~~=NDD$                                          
                                                      :DDD.            NNNN=                                             ''')
 
-
-git test
