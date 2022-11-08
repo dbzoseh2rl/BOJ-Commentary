@@ -137,6 +137,7 @@ else:
     day = ((v - b) // (a - b))
 print(day)
 
+
 # 다른 풀이
 a, b, v = map(int, input().split())
 n = (v-b) // (a-b)
