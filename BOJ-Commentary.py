@@ -477,3 +477,9 @@ print('''                                                           :8DDDDDDDDDD
                                                 ?DNNDD?~DD          ~NN~~=NDD$                                          
                                                      :DDD.            NNNN=                                             ''')
 
+# 2338
+a = int(input())
+b = int(input())
+print(a + b)
+print(a - b)
+print(a * b)
