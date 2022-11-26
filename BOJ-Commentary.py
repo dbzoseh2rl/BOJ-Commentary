@@ -500,3 +500,9 @@ elif m < 45 and n > 0:
     print(n - 1, m + 15)
 else:
     print(23, m + 15)
+
+#10807
+n = int(input())
+data = list(map(int, input().split()))
+v = int(input())
+print(data.count(v))
