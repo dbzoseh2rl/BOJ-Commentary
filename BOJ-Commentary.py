@@ -521,3 +521,11 @@ n = int(input())
 data = list(map(int, input().split()))
 v = int(input())
 print(data.count(v))
+
+# 3052               ************
+# set은 수학에서 집합과 비슷하다.(중복된 값은 자동으로 중복이 제거)
+d = []
+for i in range(10):
+    d.append(int(input()) % 42)
+d = set(d)
+print(len(d))
