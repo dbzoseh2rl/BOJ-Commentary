@@ -529,3 +529,10 @@ for i in range(10):
     d.append(int(input()) % 42)
 d = set(d)
 print(len(d))
+
+d = []
+for i in range(10):
+    n = int(input()) % 42
+    d.append(n)
+d = set(d)
+print(len(d))
