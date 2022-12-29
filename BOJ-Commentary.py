@@ -536,3 +536,10 @@ for i in range(10):
     d.append(n)
 d = set(d)
 print(len(d))
+
+# 15596
+def solve(a):
+    ans = 0
+    for i in a:
+        ans += i
+    return ans
