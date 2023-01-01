@@ -543,3 +543,7 @@ def solve(a):
     for i in a:
         ans += i
     return ans
+
+# 11654
+n = input()
+print(ord(n))
