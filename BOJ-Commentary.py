@@ -384,10 +384,12 @@ a = int(input())
 b = int(input())
 c = int(input())
 d = str(a * b * c)
-d = list(d)
-# print(d)
 for i in range(0, 10):
     print(d.count(str(i)))
+
+x = int(input()) * int(input()) * int(input())
+for i in range(0, 10):
+    print(str(x).count(str(i)))
 
 # 2739
 n = int(input())
