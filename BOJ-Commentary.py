@@ -549,3 +549,11 @@ def solve(a):
 # 11654
 n = input()
 print(ord(n))
+
+# 11720
+a = int(input())
+b = list(input())
+sum = 0
+for i in range(a):
+    sum += int(b[i])
+print(sum)
