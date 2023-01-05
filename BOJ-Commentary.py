@@ -557,3 +557,9 @@ sum = 0
 for i in range(a):
     sum += int(b[i])
 print(sum)
+
+# 10809
+word = input()
+alphabet = list(range(97, 123))  # 아스키코드 숫자 범위
+for x in alphabet:
+    print(word.find(chr(x)), end=' ')
