@@ -563,3 +563,11 @@ word = input()
 alphabet = list(range(97, 123))  # 아스키코드 숫자 범위
 for x in alphabet:
     print(word.find(chr(x)), end=' ')
+
+# 10870
+def factorial(n):
+    if (n <= 1):
+        return n
+    return factorial(n - 1) + factorial(n - 2)
+n = int(input())
+print(factorial(n))
