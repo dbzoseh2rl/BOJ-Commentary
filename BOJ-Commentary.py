@@ -571,3 +571,10 @@ def factorial(n):
     return factorial(n - 1) + factorial(n - 2)
 n = int(input())
 print(factorial(n))
+
+# 10871  *************
+n, x = map(int, input().split())
+c = list(map(int, input().split()))
+for i in range(n):
+    if c[i] < x:
+        print(c[i], end=" ")
