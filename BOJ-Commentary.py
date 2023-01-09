@@ -578,3 +578,13 @@ c = list(map(int, input().split()))
 for i in range(n):
     if c[i] < x:
         print(c[i], end=" ")
+
+# 10872 재귀 코드  BLOG
+def factorial(n):
+    result = 1
+    if n > 0:
+        result = n * factorial(n - 1)
+    return result
+
+n = int(input())
+print(factorial(n))
