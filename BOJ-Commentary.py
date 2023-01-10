@@ -588,3 +588,12 @@ def factorial(n):
 
 n = int(input())
 print(factorial(n))
+
+# 2675
+t = int(input())
+for i in range(t):
+    a, b = input().split()
+    print()
+    for j in b:
+        print(j*int(a), end='')
+    print()
