@@ -629,3 +629,12 @@ def recursive_dfs(v, discovered = [] ):
         if w not in discovered:
             discovered = recursive_dfs(w, discovered)
             return discovered
+
+재귀 예제 2
+# 반복적으로 구현한 n!
+def factorial_iterative(n):
+    result = 1
+    # 1부터 n까지의 수를 차례대로 곱하기
+    for i in range(1, n + 1):
+       result *= i
+    return result
