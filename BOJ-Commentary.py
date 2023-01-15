@@ -650,3 +650,38 @@ def factorial_recursive(n):
 print('반복적으로 구현:', factorial_iterative(5))
 print('재귀적으로 구현:', factorial_recursive(5))
 
+# 10828
+import sys
+stack = []
+def push(x):
+    stack.append(x)
+def pop():
+    if not bool(stack):
+        print(-1)
+    else:
+        print(stack.pop())
+def size():
+    print(len(stack))
+def empty():
+    if bool(stack):
+        print(0)
+    else:
+        print(1)
+def top():
+    if not bool(stack):
+        print(-1)
+    else:
+        print(stack[-1])
+a = sys.stdin.readline()
+for i in range(int(a)):
+    b = sys.stdin.readline().split()
+    if b[0] == "push":
+        push(b[1])
+    elif b[0] == "pop":
+        pop()
+    elif b[0] == "size":
+        size()
+    elif b[0] == "empty":
+        empty()
+    elif b[0] == "top":
+        top()
