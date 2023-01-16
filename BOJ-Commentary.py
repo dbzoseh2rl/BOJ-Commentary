@@ -685,3 +685,6 @@ for i in range(int(a)):
         empty()
     elif b[0] == "top":
         top()
+
+a, b = map(int, input().split())
+print(a + b)
