@@ -85,6 +85,11 @@ for i in range(1, n + 1):
     for j in range(i):
         print("*", end="")
     print()
+# 다시푼거
+# import sys
+# n = int(sys.stdin.readline())
+# for i in range(1, n + 1):
+#         print("*"*i)
 
 # 2439
 n = int(input())
@@ -94,6 +99,11 @@ for i in range(1, n + 1):
     for k in range(i):
         print("*", end="")
     print('')
+# 다시짠거
+# import sys
+# n = int(sys.stdin.readline())
+# for i in range(1, n + 1):
+#     print(" "*(n - i) + "*"*(i))
 
 # 2440
 n = int(input())
@@ -136,6 +146,15 @@ if (v - b) % (a - b) != 0:
 else:
     day = ((v - b) // (a - b))
 print(day)
+
+
+# 다른 풀이
+a, b, v = map(int, input().split())
+n = (v-b) // (a-b)
+if (v-b) % (a-b):
+    print(n+1)
+else:
+    print(n)
 
 # 11382
 A, B, C = map(int, input().split())
@@ -315,6 +334,11 @@ for i in range(0, n + 1):
         print("*", end="")
     print()
 
+# import sys
+# n = int(sys.stdin.readline())
+# for i in range(0, n + 1):
+#     print(" "*i + "*"*(n - i))
+
 # 2441
 n = int(input())
 for i in range(0, n + 1):
@@ -360,10 +384,12 @@ a = int(input())
 b = int(input())
 c = int(input())
 d = str(a * b * c)
-d = list(d)
-# print(d)
 for i in range(0, 10):
     print(d.count(str(i)))
+
+x = int(input()) * int(input()) * int(input())
+for i in range(0, 10):
+    print(str(x).count(str(i)))
 
 # 2739
 n = int(input())
@@ -468,15 +494,197 @@ print('''                                                           :8DDDDDDDDDD
                                                 ?DNNDD?~DD          ~NN~~=NDD$                                          
                                                      :DDD.            NNNN=                                             ''')
 
+# 2338
+a = int(input())
+b = int(input())
+print(a + b)
+print(a - b)
+print(a * b)
 
-git test
+# 5338
+print('''       _.-;;-._
+'-..-'|   ||   |
+'-..-'|_.-;;-._|
+'-..-'|   ||   |
+'-..-'|_.-''-._|''')
 
-def hook():
-    return """#  # #### #### #  #
-#### #  # #  # # #
-#### #  # #  # # #
-#  # #### #### #  #"""
+# 2884
+import sys
+n, m = map(int, sys.stdin.readline().split())
+if m > 44:
+    print(n, m-45)
+elif m < 45 and n > 0:
+    print(n - 1, m + 15)
+else:
+    print(23, m + 15)
 
+#10807
+n = int(input())
+data = list(map(int, input().split()))
+v = int(input())
+print(data.count(v))
 
-if __name__ == "__main__":
-    print(hook())
+# 3052               ************
+# set은 수학에서 집합과 비슷하다.(중복된 값은 자동으로 중복이 제거)
+d = []
+for i in range(10):
+    d.append(int(input()) % 42)
+d = set(d)
+print(len(d))
+
+d = []
+for i in range(10):
+    n = int(input()) % 42
+    d.append(n)
+d = set(d)
+print(len(d))
+
+# 15596
+def solve(a):
+    ans = 0
+    for i in a:
+        ans += i
+    return ans
+
+# 11654
+n = input()
+print(ord(n))
+
+# 11720
+a = int(input())
+b = list(input())
+sum = 0
+for i in range(a):
+    sum += int(b[i])
+print(sum)
+
+# 10809
+word = input()
+alphabet = list(range(97, 123))  # 아스키코드 숫자 범위
+for x in alphabet:
+    print(word.find(chr(x)), end=' ')
+
+# 10870
+def factorial(n):
+    if (n <= 1):
+        return n
+    return factorial(n - 1) + factorial(n - 2)
+n = int(input())
+print(factorial(n))
+
+# 10871  *************
+n, x = map(int, input().split())
+c = list(map(int, input().split()))
+for i in range(n):
+    if c[i] < x:
+        print(c[i], end=" ")
+
+# 10872 재귀 코드  BLOG
+def factorial(n):
+    result = 1
+    if n > 0:
+        result = n * factorial(n - 1)
+    return result
+
+n = int(input())
+print(factorial(n))
+
+# 2675
+t = int(input())
+for i in range(t):
+    a, b = input().split()
+    print()
+    for j in b:
+        print(j*int(a), end='')
+    print()
+
+# 1193
+n = int(input())
+line = 1
+while n > line:
+    n -= line
+    line += 1
+if line % 2 == 0:
+    up = n
+    down = line - n + 1
+else:
+    up = line - n + 1
+    down = n
+print(f'{up}/{down}')
+
+# 재귀 예제 1
+graph = {
+    1: [2, 3, 4],
+    2: [5],
+    3: [5],
+    4: [],
+    5: [6, 7],
+    6: [],
+    7: [3],
+}
+# 재귀 예제 1
+def recursive_dfs(v, discovered = [] ):
+    discovered.append(v)
+    for w in graph[v]:
+        if w not in discovered:
+            discovered = recursive_dfs(w, discovered)
+            return discovered
+
+# 재귀 예제 2
+# 반복적으로 구현한 n!
+def factorial_iterative(n):
+    result = 1
+    # 1부터 n까지의 수를 차례대로 곱하기
+    for i in range(1, n + 1):
+       result *= i
+    return result
+
+# 재귀적으로 구현한 n!
+def factorial_recursive(n):
+    if n <= 1: # n이 1 이하인 경우 1을 반환
+        return 1
+    # n! = n * (n - 1)!를 그대로 코드로 작성하기
+    return n * factorial_recursive(n - 1)
+
+# 각각의 방식으로 구현한 n! 출력(n = 5)
+print('반복적으로 구현:', factorial_iterative(5))
+print('재귀적으로 구현:', factorial_recursive(5))
+
+# 10828
+import sys
+stack = []
+def push(x):
+    stack.append(x)
+def pop():
+    if not bool(stack):
+        print(-1)
+    else:
+        print(stack.pop())
+def size():
+    print(len(stack))
+def empty():
+    if bool(stack):
+        print(0)
+    else:
+        print(1)
+def top():
+    if not bool(stack):
+        print(-1)
+    else:
+        print(stack[-1])
+a = sys.stdin.readline()
+for i in range(int(a)):
+    b = sys.stdin.readline().split()
+    if b[0] == "push":
+        push(b[1])
+    elif b[0] == "pop":
+        pop()
+    elif b[0] == "size":
+        size()
+    elif b[0] == "empty":
+        empty()
+    elif b[0] == "top":
+        top()
+
+a, b = map(int, input().split())
+print(a + b)
