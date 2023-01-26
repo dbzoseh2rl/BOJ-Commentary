@@ -688,3 +688,14 @@ for i in range(int(a)):
 
 a, b = map(int, input().split())
 print(a + b)
+
+# 1330
+A, B = map(int, input().split())
+#print('>') if A > B else print('<') if A < B else print('==')
+
+if A > B:
+    print('>')
+elif A < B:
+    print('<')
+elif A == B:
+    print('==')
