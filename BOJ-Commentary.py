@@ -712,3 +712,15 @@ elif a >= 60:
     print('D')
 else:
     print('F')
+
+#  10773
+k = int(input())  # 몇개 할껀지
+d = []
+for i in range(k):
+    num = int(input())  # 정수형 으로 숫자 입력
+    if num == 0:        # len(d) != 0:
+        if len(d) != 0:
+            d.pop()
+    else:
+        d.append(num)
+print(sum(d))
