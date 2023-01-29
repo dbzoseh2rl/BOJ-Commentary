@@ -714,13 +714,12 @@ else:
     print('F')
 
 #  10773
-k = int(input())  # 몇개 할껀지
-d = []
-for i in range(k):
-    num = int(input())  # 정수형 으로 숫자 입력
-    if num == 0:        # len(d) != 0:
-        if len(d) != 0:
-            d.pop()
+n = int(input())
+z = []
+for i in range(n):
+    num = int(input())
+    if num == 0:
+        z.pop()
     else:
-        d.append(num)
-print(sum(d))
+        z.append(num)
+print(sum(z))
