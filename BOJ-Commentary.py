@@ -723,3 +723,22 @@ for i in range(n):
     else:
         z.append(num)
 print(sum(z))
+
+# 9012
+T = int(input())
+for i in range(T):
+    d = str(input())
+    ch = 0
+
+    for j in d:
+        if j == '(':
+            ch += 1
+        elif j == ')':
+            ch -= 1
+        if ch == -1:
+            break
+
+    if ch == 0:
+        print('YES')
+    else:
+        print('NO')
