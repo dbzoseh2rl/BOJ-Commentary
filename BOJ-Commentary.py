@@ -748,3 +748,12 @@ N = int(input())
 a = list(map(int, input().split()))
 a.sort()
 print(a[0], a[-1])
+
+# 2869
+a, b, v = map(int, input().split())
+day = 0
+if (v - b) % (a - b) != 0:   # 나누기 했을때 나머지 가 0이 아니면
+    day = ((v - b) // (a - b)) + 1
+else:
+    day = ((v - b) // (a - b))
+print(day)
