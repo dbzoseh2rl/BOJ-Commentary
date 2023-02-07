@@ -757,3 +757,12 @@ if (v - b) % (a - b) != 0:   # 나누기 했을때 나머지 가 0이 아니면
 else:
     day = ((v - b) // (a - b))
 print(day)
+
+# 2292
+n = int(input())    # 반복문 갯수 입력
+nums = 1            # 벌집 갯수 1부터 시작
+cn = 1
+while n > nums:
+      nums += 6 * cn  # 벌집이 6 배로 증가
+     cn += 1
+print(cn)
