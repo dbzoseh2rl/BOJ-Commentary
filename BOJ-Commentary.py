@@ -766,3 +766,48 @@ while n > nums:
       nums += 6 * cn  # 벌집이 6 배로 증가
      cn += 1
 print(cn)
+
+# 10828
+import sys
+input=sys.stdin.readline
+
+n = int(input()) #명령의 수
+stack=[]
+
+def push(x):
+    #리스트의 마지막에 추가
+    stack.append(x) #딱히 int(x)할 필요는 없을 듯
+
+def pop():
+    if(len(stack)==0):
+        print(-1)
+    else:
+        print(stack.pop())
+
+def size():
+    print(len(stack))
+
+def empty():
+    if(len(stack)==0): #비면
+        print(1)
+    else: #안 비면
+        print(0)
+
+def top():
+    if(len(stack)==0):
+        print(-1)
+    else:
+        print(stack[-1])
+
+for i in range(n):
+    command=input().split() #push 1 같은 애들 분리
+    if(command[0] == 'push'):
+        push(command[1])
+    if (command[0] == 'pop'):
+        pop()
+    if (command[0] == 'size'):
+        size()
+    if (command[0] == 'empty'):
+        empty()
+    if (command[0] == 'top'):
+        top()
