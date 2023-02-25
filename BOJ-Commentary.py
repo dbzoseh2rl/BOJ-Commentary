@@ -836,3 +836,7 @@ cp = [1, 1, 2, 2, 2, 8]
 li = list(map(int, input().split()))
 for i in range(6):
     print(cp[i]-li[i], end=' ')
+
+# 10430
+A, B, C = map(int, input().split())
+print((A+B) % C);print(((A % C) + (B % C)) % C);print((A*B) % C);print(((A % C) * (B % C)) % C)
