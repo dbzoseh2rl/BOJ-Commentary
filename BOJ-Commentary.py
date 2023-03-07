@@ -855,3 +855,11 @@ print(sum % 10)
 # 2743
 n = input()
 print(len(n))
+
+# 1037
+import sys
+x = int(sys.stdin.readline())
+y = list(map(int, sys.stdin.readline().split()))
+a = max(y)
+b = min(y)
+print(a * b)
