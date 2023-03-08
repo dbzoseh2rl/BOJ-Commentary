@@ -863,3 +863,14 @@ y = list(map(int, sys.stdin.readline().split()))
 a = max(y)
 b = min(y)
 print(a * b)
+
+# 2750
+n = int(input())
+s = []
+for i in range(n):
+    a = int(input())
+    s.append(a)
+s.sort()
+
+for s in s:
+    print(s)
