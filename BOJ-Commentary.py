@@ -874,3 +874,9 @@ s.sort()
 
 for s in s:
     print(s)
+
+import sys
+n = int(sys.stdin.readline())
+s = [int(sys.stdin.readline()) for _ in range(n)]
+s.sort()
+print('\n'.join(str(s) for s in s))
