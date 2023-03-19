@@ -880,3 +880,12 @@ n = int(sys.stdin.readline())
 s = [int(sys.stdin.readline()) for _ in range(n)]
 s.sort()
 print('\n'.join(str(s) for s in s))
+
+# 2751
+import sys
+n = int(input())
+l = []
+for i in range(n):
+    l.append(int(sys.stdin.readline()))
+for l in sorted(l):
+    print(l)
