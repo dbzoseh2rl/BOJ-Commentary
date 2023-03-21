@@ -889,3 +889,11 @@ for i in range(n):
     l.append(int(sys.stdin.readline()))
 for l in sorted(l):
     print(l)
+
+# 15552
+import sys
+t = int(input())
+for i in range(t):
+    x, y = map(int, sys.stdin.readline().split())
+    s = x + y
+    print(s)
