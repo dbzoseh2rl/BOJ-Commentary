@@ -918,3 +918,13 @@ for i in range(n):
     for j in range(m):
         print(arr[i][j], end="")
     print(".")
+
+# 2010
+# 2010
+import sys
+num = int(sys.stdin.readline())
+sum = 1
+for i in range(num):
+    tempnum = int(sys.stdin.readline())
+    sum += tempnum
+print(sum-num)
