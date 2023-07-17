@@ -920,7 +920,6 @@ for i in range(n):
     print(".")
 
 # 2010
-# 2010
 import sys
 num = int(sys.stdin.readline())
 sum = 1
@@ -928,3 +927,11 @@ for i in range(num):
     tempnum = int(sys.stdin.readline())
     sum += tempnum
 print(sum-num)
+
+import sys
+# for i in range(int(sys.stdin.readline())//4):
+#     print("long", end=" ")
+# print("int")
+
+# 간단하게
+print(int(sys.stdin.readline())//4 * "long " + "int")
