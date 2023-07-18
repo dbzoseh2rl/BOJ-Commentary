@@ -935,3 +935,20 @@ import sys
 
 # 간단하게
 print(int(sys.stdin.readline())//4 * "long " + "int")
+
+# 1094
+import sys
+x = int(sys.stdin.readline())
+stick = [64, 32, 16, 8, 4, 2, 1]
+cnt = 0
+for i in range(len(stick)):
+    if x == 0:
+        break
+    if stick[i] <= x:
+        x -= stick[i]
+        cnt += 1
+print(cnt)
+
+# 막대기 길이 전부 이진수로 표현 가능하기때문에
+# print(bin(int(input())).count("1"))
+
