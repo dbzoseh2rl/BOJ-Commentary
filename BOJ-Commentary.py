@@ -959,3 +959,21 @@ print("J-Type 327     Light Combat   Unlimited  1         ")
 print("NX Cruiser     Medium Fighter Limited    18        ")
 print("N1 Starfighter Medium Fighter Unlimited  25        ")
 print("Royal Cruiser  Light Combat   Limited    4         ")
+
+# 재귀 예제 1
+graph = {
+    1: [2, 3, 4],
+    2: [5],
+    3: [5],
+    4: [],
+    5: [6, 7],
+    6: [],
+    7: [3],
+}
+
+def recursive_dfs(v, discovered = [] ):
+    discovered.append(v)
+    for w in graph[v]:
+        if w not in discovered:
+            discovered = recursive_dfs(w, discovered)
+            return discovered
