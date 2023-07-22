@@ -986,3 +986,7 @@ def factorial_iterative(n):
     for i in range(1, n + 1):
        result *= i
     return result
+
+stack = [1, 2, 3, 4]
+print(stack)
+print(*stack)
