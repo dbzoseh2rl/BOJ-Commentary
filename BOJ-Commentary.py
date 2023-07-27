@@ -1005,3 +1005,15 @@ print('재귀적으로 구현:', factorial_recursive(5))
 stack = [1, 2, 3, 4]
 print(stack)
 print(*stack)
+
+# 1297
+import sys
+n = int(sys.stdin.readline())
+li=[]
+for i in range(n):
+    [a, b] = map(int, sys.stdin.readline().split())
+    li.append([a, b])
+li.sort()       # li리스트 정렬
+for i in li:
+    print(i[0], i[1])   # 리스트 인덱싱으로 출력
+
