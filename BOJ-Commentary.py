@@ -1017,3 +1017,6 @@ li.sort()       # li리스트 정렬
 for i in li:
     print(i[0], i[1])   # 리스트 인덱싱으로 출력
 
+# 7287
+print("65\n")
+print("ehrud25\n")
