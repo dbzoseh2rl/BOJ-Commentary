@@ -1041,3 +1041,8 @@ s = [i for i in range(1, 31)]
 for _ in range(28):
     s.remove(int(input()))
 print(*s, sep="\n")
+
+# 2744
+str1 = str(input())
+str1.swapcase()
+print(str1.swapcase())
