@@ -1046,3 +1046,11 @@ print(*s, sep="\n")
 str1 = str(input())
 str1.swapcase()
 print(str1.swapcase())
+
+# 10809
+s = input()
+alphabet = list(range(97, 123))
+for x in alphabet:
+    print(s.find(chr(x)), end=" ")
+
+
