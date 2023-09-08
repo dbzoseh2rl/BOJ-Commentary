@@ -1053,4 +1053,9 @@ alphabet = list(range(97, 123))
 for x in alphabet:
     print(s.find(chr(x)), end=" ")
 
-
+# 11718
+while True:
+    try:
+        print(input())
+    except EOFError:
+        break
