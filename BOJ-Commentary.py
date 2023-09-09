@@ -1059,3 +1059,10 @@ while True:
         print(input())
     except EOFError:
         break
+
+# 9086
+li = []
+for i in range(int(input())):
+    d = str(input())
+    li.append(d[0]+d[-1])
+    print(li[i])
