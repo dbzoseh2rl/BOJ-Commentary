@@ -1066,3 +1066,10 @@ for i in range(int(input())):
     d = str(input())
     li.append(d[0]+d[-1])
     print(li[i])
+
+# 15964
+a, b = map(int, input().split())
+n1 = a + b
+n2 = a - b
+num = n1 * n2
+print(num)
