@@ -1073,3 +1073,13 @@ n1 = a + b
 n2 = a - b
 num = n1 * n2
 print(num)
+
+# 2920
+s = input().replace(" ", "")
+s = input().replace(" ", "")
+if s == "12345678":
+   print("ascending")
+elif s == "87654321":
+   print("descending")
+else:
+   print("mixed")
