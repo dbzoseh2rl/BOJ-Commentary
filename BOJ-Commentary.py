@@ -1083,3 +1083,7 @@ elif s == "87654321":
    print("descending")
 else:
    print("mixed")
+
+# 1152
+n = input().strip()
+print(len(n.split()))
