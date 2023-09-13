@@ -1087,3 +1087,9 @@ else:
 # 1152
 n = input().strip()
 print(len(n.split()))
+
+# 18108
+n = int(input())
+x = n - 543
+print(x)
+
