@@ -1093,3 +1093,14 @@ n = int(input())
 x = n - 543
 print(x)
 
+# 1157
+word = input().upper()
+s_word = list(set(word))
+v = []
+for x in s_word:
+    cnt = word.count(x)
+    v.append(cnt)
+if v.count(max(v)) > 1:
+    print("?")
+else:
+    print(s_word[(v.index(max(v)))])
