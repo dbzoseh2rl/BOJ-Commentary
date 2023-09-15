@@ -1104,3 +1104,12 @@ if v.count(max(v)) > 1:
     print("?")
 else:
     print(s_word[(v.index(max(v)))])
+
+# 2908
+num1, num2 = input().split()
+num1 = int(num1[::-1])    # [::-1] : 역순
+num2 = int(num2[::-1])
+if num1 > num2:
+    print(num1)
+else:
+    print(num2)
