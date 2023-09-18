@@ -1136,3 +1136,17 @@ elif b == c:
     print(1000 + b * 100)
 else:
     print(max(a, b, c) * 100)
+
+# 4344              ?????????????
+C = int(input())
+for _ in range(C):
+    case = list(map(int, input().split()))
+    avg = sum(case[1:]) / case[0]
+    cnt = 0
+
+    for i in case[1:]:
+        if i > avg:
+            cnt += 1
+
+    r = cnt/case[0]*100
+    print(f"{r:.3f}%")
