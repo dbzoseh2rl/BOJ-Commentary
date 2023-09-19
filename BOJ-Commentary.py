@@ -1150,3 +1150,8 @@ for _ in range(C):
 
     r = cnt/case[0]*100
     print(f"{r:.3f}%")
+
+# 11943
+A, B = map(int, input().split())
+C, D = map(int, input().split())
+print(min(A+D,B+C))
