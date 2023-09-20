@@ -1155,3 +1155,8 @@ for _ in range(C):
 A, B = map(int, input().split())
 C, D = map(int, input().split())
 print(min(A+D,B+C))
+
+# 25372
+for _ in range(int(input())):
+    password = len(input())
+    print("yes") if 6 <= password and password <= 9 else print("no")
