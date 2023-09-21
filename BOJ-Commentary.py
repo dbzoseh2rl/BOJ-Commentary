@@ -1160,3 +1160,8 @@ print(min(A+D,B+C))
 for _ in range(int(input())):
     password = len(input())
     print("yes") if 6 <= password and password <= 9 else print("no")
+
+# 27323
+a=int(input())
+b=int(input())
+print(a*b)
