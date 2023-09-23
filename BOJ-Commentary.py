@@ -1176,3 +1176,10 @@ for i in range(n):
     x[i]   x[i]/y * 100
     sum += x[i]
 print(sum/n)
+
+# 10988
+word = list(str(input()))
+if list(reversed(word)) == word:
+    print(1)
+else:
+    print(0)
