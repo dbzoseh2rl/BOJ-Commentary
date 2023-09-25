@@ -1173,7 +1173,7 @@ x = list(map(int, sys.stdin.readline().split()))
 y = max(x)
 sum = 0
 for i in range(n):
-    x[i]   x[i]/y * 100
+    x[i] = x[i]/y * 100
     sum += x[i]
 print(sum/n)
 
@@ -1190,3 +1190,8 @@ d2 = int(input())
 pi = 3.141592
 ans = d1*2 + 2*d2*pi
 print(ans)
+
+# 25640
+a = input()
+mbti = [input() for _ in range(int(input()))]
+print(mbti.count(a))
