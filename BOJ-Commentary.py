@@ -1246,3 +1246,11 @@ while T > 0 :
     a, b, c = map(int, input().split())
     print(min(a, min(b, c)))
     T -= 1
+
+
+# 16170
+import datetime
+data = datetime.datetime.now() + datetime.timedelta(hours=9)
+print(data.year)
+print(data.month)
+print(data.day)
