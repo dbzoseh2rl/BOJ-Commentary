@@ -1254,3 +1254,12 @@ data = datetime.datetime.now() + datetime.timedelta(hours=9)
 print(data.year)
 print(data.month)
 print(data.day)
+
+# 25304
+x = int(input())
+n = int(input())
+for i in range(n):
+    a, b = input().split()
+    a, b = int(a), int(b)
+    x -= (a * b)
+print("Yes" if x == 0 else "No")
