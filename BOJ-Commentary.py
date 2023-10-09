@@ -1279,3 +1279,15 @@ Green Bay      8   7  1
 Chicago        8   8  0
 Detroit        7   9  0
 Minnesota      5  10  1""")
+
+
+# 1834
+a = int(input())
+for i in range(a):
+    x = []
+    z = list(map(int, input().split()))
+    # print(z)
+    for i in z:
+        if i % 2 == 0:
+            x.append(i)
+    print(sum(x), min(x))
