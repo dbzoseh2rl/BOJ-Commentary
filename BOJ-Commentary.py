@@ -1291,3 +1291,13 @@ for i in range(a):
         if i % 2 == 0:
             x.append(i)
     print(sum(x), min(x))
+
+
+# 2935
+a = int(input())
+b = input()
+c = int(input())
+if b == "*":
+    print(a * c)
+else:
+    print(a + c)
