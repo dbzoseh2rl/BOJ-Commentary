@@ -1318,3 +1318,10 @@ a = int(input()); b=int(input()); c= int(input());d = int(input())
 z = a + b + c + d
 print(z//60)
 print(z%60)
+
+# 2953
+total = []
+for _ in range(5):
+    score = list(map(int, input().split()))
+    total.append(sum(score))
+print(total.index(max(total)) + 1, max(total))
