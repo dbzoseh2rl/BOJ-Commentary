@@ -1333,3 +1333,11 @@ for i in range(1, t + 1):
     a, b = map(int, input().split())
     x = a + b
     print(f"Case #{i}: {x}")
+
+
+# 11022
+t = int(input())
+for i in range(1, t + 1):
+    a, b = map(int, input().split())
+    x = a + b
+    print(f"Case #{i}: {a} + {b} = {x}")
