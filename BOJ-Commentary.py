@@ -1341,3 +1341,18 @@ for i in range(1, t + 1):
     a, b = map(int, input().split())
     x = a + b
     print(f"Case #{i}: {a} + {b} = {x}")
+
+# 1789
+n = int(input())
+sum = 0
+result = 0
+for i in range(1, n + 1):
+    sum += i
+    result += 1
+    if sum > n:
+        result -= 1
+        break
+    # print(sum)
+    # print("______")
+    # print(result)
+print(result)
