@@ -1374,3 +1374,10 @@ while True:
     if a == 0 and b == 0:
         break
     print(a + b)
+
+# 27959
+N, M = map(int, input().split())
+if N*100 >= M:
+    print("Yes")
+else:
+    print("No")
