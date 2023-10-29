@@ -1381,3 +1381,26 @@ if N*100 >= M:
     print("Yes")
 else:
     print("No")
+
+
+# 1920
+# 시간 초과
+# import sys
+# n = int(sys.stdin.readline())
+# arr1 = list(map(int, sys.stdin.readline().split()))
+# m = int(sys.stdin.readline())
+# arr2 = list(map(int, sys.stdin.readline().split()))
+#
+# for i in arr2:
+#     if i in arr1:
+#         print("1")
+#     else:
+#         print("0")
+
+
+n = int(input())
+A = set(map(int, input().split()))
+m = int(input())
+B = list(map(int, input().split()))
+for i in B:
+    print(1 if i in A else 0)
