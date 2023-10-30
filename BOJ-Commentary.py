@@ -1404,3 +1404,16 @@ m = int(input())
 B = list(map(int, input().split()))
 for i in B:
     print(1 if i in A else 0)
+
+
+# 2576
+import sys
+li = []
+for i in range(7):
+    x = int(sys.stdin.readline())
+    if x % 2 == 1:
+        li.append(x)
+if len(li) == 0: print("-1")
+else:
+    print(sum(li))
+    print(min(li))
