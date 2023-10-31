@@ -1417,3 +1417,11 @@ if len(li) == 0: print("-1")
 else:
     print(sum(li))
     print(min(li))
+
+# 10951
+while True:
+    try:
+        a, b = map(int, input().split())
+    except:
+        break
+    print(a + b)
