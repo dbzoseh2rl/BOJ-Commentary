@@ -1466,3 +1466,8 @@ for i in range(1,len(word)):
         new_word_list.append(first_word+second_word+third_word)
 sort_new_word=sorted(new_word_list)
 print(sort_new_word[0])
+
+# 10757
+a, b = map(int, input().split())
+x = a + b
+print(x)
