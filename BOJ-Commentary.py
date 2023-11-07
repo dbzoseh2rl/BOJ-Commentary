@@ -1471,3 +1471,9 @@ print(sort_new_word[0])
 a, b = map(int, input().split())
 x = a + b
 print(x)
+
+# 2752
+print(*sorted(map(int, input().split())))
+a = list(map(int, input().split()))
+a.sort()
+print(a[0], a[1], a[2])
