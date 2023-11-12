@@ -1481,3 +1481,15 @@ print(a[0], a[1], a[2])
 # 13277
 a, b = map(int, input().split())
 print(a * b)
+
+# 1264
+while True:
+    x = input()
+    if x == '#':
+        break
+    value = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+    cnt = 0
+    for i in range(len(x)):
+        if x[i] in value:
+            cnt += 1
+    print(cnt)
