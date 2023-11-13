@@ -1493,3 +1493,9 @@ while True:
         if x[i] in value:
             cnt += 1
     print(cnt)
+
+# 2752
+print(*sorted(map(int, input().split())))
+a = list(map(int, input().split()))
+a.sort()
+print(a[0], a[1], a[2])
