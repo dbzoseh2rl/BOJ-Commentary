@@ -1499,3 +1499,14 @@ print(*sorted(map(int, input().split())))
 a = list(map(int, input().split()))
 a.sort()
 print(a[0], a[1], a[2])
+
+# 5622     ???????
+dial = ['ABC', 'DEF', 'GHI', 'JKL', 'MNO', 'PQRS', 'TUV', 'WXYZ']
+
+text = input()
+sum = 0
+for i in text:
+    for j in dial:
+        if i in j:
+            sum += dial.index(j) + 3
+print(sum)
