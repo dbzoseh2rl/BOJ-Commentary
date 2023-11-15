@@ -1510,3 +1510,8 @@ for i in text:
         if i in j:
             sum += dial.index(j) + 3
 print(sum)
+
+
+# 3046
+R1, S = map(int, input().split())
+print(S * 2 - R1)
