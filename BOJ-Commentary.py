@@ -1515,3 +1515,10 @@ print(sum)
 # 3046
 R1, S = map(int, input().split())
 print(S * 2 - R1)
+
+
+# 2845
+L, P = map(int, input().split())
+news = list(map(int, input().split()))
+for i in news:
+    print(i - L * P, end = ' ')
