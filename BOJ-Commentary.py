@@ -1526,3 +1526,10 @@ for i in news:
 # 7287
 print("65\n")
 print("ehrud25\n")
+
+# 10807
+n = int(input())
+data = list(map(int, input().split()))
+v = int(input())
+print(data.count(v))
+
