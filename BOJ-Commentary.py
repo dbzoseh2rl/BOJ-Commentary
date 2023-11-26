@@ -1535,3 +1535,11 @@ print(data.count(v))
 # input();print(input().split().count(input()))
 # input()
 # print(input().split().count(input()))
+
+# 5597
+li = []                     #런타임 에러
+check = range(29)
+for i in check:
+    li.append(int(input()))
+    if i not in li:
+        print(i)
