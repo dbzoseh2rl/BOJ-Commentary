@@ -211,6 +211,10 @@ import datetime
 now = datetime.datetime.now()
 print(str(now)[:10])
 
+import datetime
+d_today = datetime.date.today()
+print(d_today)
+
 # 2750
 n = int(input())
 s = []
@@ -1543,3 +1547,4 @@ for i in check:
     li.append(int(input()))
     if i not in li:
         print(i)
+
