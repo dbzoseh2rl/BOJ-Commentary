@@ -1548,3 +1548,12 @@ for i in check:
     if i not in li:
         print(i)
 
+# 5532
+l = int(input())
+A = int(input())
+B = int(input())
+C = int(input())
+D = int(input())
+x = (A / C)
+y = (B / D)
+print(int(l - max(x, y)))
