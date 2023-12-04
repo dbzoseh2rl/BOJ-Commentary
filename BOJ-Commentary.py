@@ -1569,3 +1569,9 @@ s.sort(key=len)
 
 for i in s:
     print(i)
+
+# 4470
+n = int(input())
+for i in range(n):
+    l = input()
+    print(f"{i+1}. {l}")
