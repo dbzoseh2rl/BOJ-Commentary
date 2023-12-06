@@ -1575,3 +1575,7 @@ n = int(input())
 for i in range(n):
     l = input()
     print(f"{i+1}. {l}")
+
+# 1085
+x, y, w, h = map(int, input().split())
+print(min(x, y, w - x, h - y))
