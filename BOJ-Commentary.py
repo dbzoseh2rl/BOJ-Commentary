@@ -1579,3 +1579,10 @@ for i in range(n):
 # 1085
 x, y, w, h = map(int, input().split())
 print(min(x, y, w - x, h - y))
+
+# 1312
+a, b, n = map(int, input().split())
+for i in range(n):
+    a = (a % b) * 10
+    result = a // b
+print(result)
