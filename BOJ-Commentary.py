@@ -1597,3 +1597,9 @@ for i in range(10001):
     if b[i] != 0:
         for j in range(b[i]):
             print(i)
+
+# 2587
+lis = [int(input()) for _ in range(5)]
+lis.sort()
+print(sum(lis)//5)
+print(lis[2])
