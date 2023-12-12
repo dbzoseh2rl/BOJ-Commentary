@@ -1603,3 +1603,7 @@ lis = [int(input()) for _ in range(5)]
 lis.sort()
 print(sum(lis)//5)
 print(lis[2])
+
+# 13752
+for _ in range(int(input())):
+    print('=' * int(input()))
