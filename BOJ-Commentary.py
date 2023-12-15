@@ -1607,3 +1607,10 @@ print(lis[2])
 # 13752
 for _ in range(int(input())):
     print('=' * int(input()))
+
+# 25305
+import sys
+a, b = map(int, sys.stdin.readline().split())
+x = list(map(int, sys.stdin.readline().split()))
+z = sorted(x, reverse=True)
+print(z[b-1])
