@@ -1614,3 +1614,15 @@ a, b = map(int, sys.stdin.readline().split())
 x = list(map(int, sys.stdin.readline().split()))
 z = sorted(x, reverse=True)
 print(z[b-1])
+
+# 2231
+N = int(input())
+for i in range(N):
+    temp = sum(map(int, str(i)))
+    result = i + temp
+    if result == N:
+        print(i)
+        break
+else:
+    print(0)
+print(temp, i)
