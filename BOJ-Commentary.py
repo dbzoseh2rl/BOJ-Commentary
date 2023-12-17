@@ -1626,3 +1626,13 @@ for i in range(N):
 else:
     print(0)
 print(temp, i)
+
+# # 1236
+# arr = [[0]* 열의개수 for i in range(행의개수)]
+n, m = map(int, input().split())
+arr = [[0] * m for i in range(n)]
+
+for i in range(n):
+    for j in range(m):
+        print(arr[i][j], end="")
+    print(".")
