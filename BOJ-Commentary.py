@@ -1636,3 +1636,22 @@ for i in range(n):
     for j in range(m):
         print(arr[i][j], end="")
     print(".")
+
+# 1417
+import sys
+n = int(sys.stdin.readline())  # 후보의 수
+dasom = int( )  # 1번 다솜의 수
+other = []       # 다른사람 뽑을려는수
+cnt = 0        # 매수해야하는 사람수
+for i in range(n - 1):
+    other.append(int(sys.stdin.readline()))
+other.sort(reverse=True)
+if n == 1:
+  print(0)
+else:
+  while other[0] >= dasom:
+    dasom += 1
+    other[0] -= 1
+    cnt += 1
+    other.sort(reverse=True)
+  print(cnt)
