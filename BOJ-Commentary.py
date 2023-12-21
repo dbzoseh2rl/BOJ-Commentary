@@ -1663,3 +1663,13 @@ s += t
 m += s//60
 h += m//60
 print(h % 24, m % 60, s % 60)
+
+# 1343
+import sys
+x = sys.stdin.readline()
+x = x.replace("XXXX", "AAAA")
+x = x.replace("XX", "BB")
+if "X" in x:
+    print(-1)
+else:
+    print(x)
