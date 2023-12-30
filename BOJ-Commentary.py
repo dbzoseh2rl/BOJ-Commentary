@@ -1696,3 +1696,27 @@ s += t
 m += s//60
 h += m//60
 print(h % 24, m % 60, s % 60)
+
+# 5543
+burger = []
+drink = []
+for i in range(0, 3):
+    a = int(input())
+    burger.append(a)
+for i in range(0, 2):
+    b = int(input())
+    drink.append(b)
+print(min(burger) + min(drink) - 50)
+# 104ms
+
+import sys      //여기서
+x = [int(sys.stdin.readline()) for _ in range(3)]
+y = [int(sys.stdin.readline()) for _ in range(2)]
+print(min(x) + min(y) - 50)
+# 140ms   -> 인풋이 많아지면 이게 더 빨라짐
+
+for i in range(0, 2):
+    b = int(sys.stdin.readine())
+    drink.append(b)
+print(min(burger) + min(drink) - 50)
+# 런타임 에러 ???????
