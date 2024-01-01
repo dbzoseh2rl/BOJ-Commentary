@@ -1740,3 +1740,11 @@ if __name__ == "__main__":
     B = int(input())
 
     print(A_plus_B(A=A, B=B))
+
+# 1254
+import sys
+s = sys.stdin.readline().strip()
+for i in range(len(s)):
+    if s[i:] == s[i:][::-1]:
+        print(len(s) + i)
+        break
