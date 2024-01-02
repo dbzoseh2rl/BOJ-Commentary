@@ -1720,3 +1720,11 @@ for i in range(0, 2):
     drink.append(b)
 print(min(burger) + min(drink) - 50)
 # 런타임 에러 ???????
+
+# 2444
+import sys
+n = int(sys.stdin.readline())
+for i in range(1, n):
+    print(" "*(n-i) + "*"*(2*i - 1))
+for i in range(n, 0, -1):
+    print(" "*(n-i) + "*"*(2*i - 1))
