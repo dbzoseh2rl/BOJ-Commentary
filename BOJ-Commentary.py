@@ -1709,7 +1709,7 @@ for i in range(0, 2):
 print(min(burger) + min(drink) - 50)
 # 104ms
 
-import sys      //여기서
+import sys      # //여기서
 x = [int(sys.stdin.readline()) for _ in range(3)]
 y = [int(sys.stdin.readline()) for _ in range(2)]
 print(min(x) + min(y) - 50)
