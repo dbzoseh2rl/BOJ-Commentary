@@ -1748,15 +1748,3 @@ for i in range(len(s)):
     if s[i:] == s[i:][::-1]:
         print(len(s) + i)
         break
-
-# 2440
-import sys
-n = int(sys.stdin.readline())
-for i in range(0, n + 1):
-    print(" "*i + "*"*(n - i))
-
-# 2349
-import sys
-n = int(sys.stdin.readline())
-for i in range(1, n + 1):
-    print(" "*(n - i) + "*"*(i))
