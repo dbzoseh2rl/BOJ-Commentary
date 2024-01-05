@@ -1729,11 +1729,9 @@ for i in range(1, n):
 for i in range(n, 0, -1):
     print(" "*(n-i) + "*"*(2*i - 1))
 
-
 # 26711
 def A_plus_B(A, B):
     return A + B
-
 
 if __name__ == "__main__":
     A = int(input())
@@ -1749,3 +1747,8 @@ for i in range(len(s)):
         print(len(s) + i)
         break
 
+# 2440
+import sys
+n = int(sys.stdin.readline())
+for i in range(0, n + 1):
+    print(" "*i + "*"*(n - i))
