@@ -1778,3 +1778,12 @@ while True:
     n = input()
     if n == "0": break
     print('yes' if n == n[::-1] else 'no')
+
+# 1267
+n = int(input())
+s = list(map(int, input().split()))
+y, m = 0
+for i in s:
+    y += i // 30 * 10 + 10
+    m += i // 60 * 15 + 15
+print("y", y) if y < m else print("m", m) if y > m else print("y m", m)
