@@ -1793,3 +1793,20 @@ A, B = map(float, input().split())
 M = (B-A)/400
 res = 1 / (1 + 10**M)
 print(res)
+
+# 2083
+if __name__ == '__main__':
+    while True:
+        name, age, weight = input().split()
+        age, weight = int(age), int(weight)
+        if name == '#' and age == 0 and weight == 0:
+            break
+        if age > 17 or weight >= 80:
+            print(name + ' ' + 'Senior')
+        else:
+            print(name + ' ' + 'Junior')
+
+while True:
+    print(name, "Junior" if int(age) <= 17 and int(weight) < 80 else "Senior")
+    name, age, weight = input().strip().split()
+    if name == "#" and age == "0" and weight == "0": break
