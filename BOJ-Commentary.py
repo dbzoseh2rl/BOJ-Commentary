@@ -1787,3 +1787,9 @@ for i in s:
     y += i // 30 * 10 + 10
     m += i // 60 * 15 + 15
 print("y", y) if y < m else print("m", m) if y > m else print("y m", m)
+
+# 17356
+A, B = map(float, input().split())
+M = (B-A)/400
+res = 1 / (1 + 10**M)
+print(res)
