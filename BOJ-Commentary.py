@@ -1810,3 +1810,15 @@ while True:
     print(name, "Junior" if int(age) <= 17 and int(weight) < 80 else "Senior")
     name, age, weight = input().strip().split()
     if name == "#" and age == "0" and weight == "0": break
+
+
+# 4101
+import sys
+while True:
+    a, b = map(int, sys.stdin.readline().split())
+    if a == 0 and b == 0:
+        break
+    if a > b:
+        print("Yes")
+    else:
+        print("No")
