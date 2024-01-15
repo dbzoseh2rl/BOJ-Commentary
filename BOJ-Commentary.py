@@ -1832,3 +1832,12 @@ while True:
         break
     a += 1
 print(str(a)[-2:])
+
+# 2108
+# 시간 초과 (최빈값 때문에)
+import sys
+n = int(sys.stdin.readline())
+
+li = []
+for _ in range(n):
+    li.append(int(sys.stdin.readline()))
