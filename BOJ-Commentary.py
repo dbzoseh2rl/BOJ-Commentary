@@ -1841,3 +1841,5 @@ n = int(sys.stdin.readline())
 li = []
 for _ in range(n):
     li.append(int(sys.stdin.readline()))
+# # 산술평균 - 다 더해서 / n
+print(round(sum(li) // n, 1))
