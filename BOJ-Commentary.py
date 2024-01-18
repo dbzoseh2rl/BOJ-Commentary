@@ -1843,3 +1843,29 @@ for _ in range(n):
     li.append(int(sys.stdin.readline()))
 # # 산술평균 - 다 더해서 / n
 print(round(sum(li) // n, 1))
+
+# 중앙값 - 오름차순 -> 중간값
+li.sort()
+print(li[n // 2])
+
+
+# 30087
+N = int(input())
+
+for i in range(N):
+    name = input()
+
+    if name == 'Algorithm':
+        print('204')
+    elif name == 'DataAnalysis':
+        print('207')
+    elif name == 'ArtificialIntelligence':
+        print('302')
+    elif name == 'CyberSecurity':
+        print('B101')
+    elif name == 'Network':
+        print('303')
+    elif name == 'Startup':
+        print('501')
+    elif name == 'TestStrategy':
+        print('105')
