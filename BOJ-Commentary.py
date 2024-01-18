@@ -1844,6 +1844,10 @@ for _ in range(n):
 # # 산술평균 - 다 더해서 / n
 print(round(sum(li) // n, 1))
 
+# # 중앙값 - 오름차순 -> 중간값
+li.sort()
+print(li[n // 2])
+
 # 30087
 N = int(input())
 
