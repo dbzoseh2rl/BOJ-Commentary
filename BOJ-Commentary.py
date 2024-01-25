@@ -1851,6 +1851,8 @@ print(li[n // 2])
 # # 최빈값 - 빈출
 # # 파이썬에 Counter함수가 있으나 사용하지않음
 # number = list(set(li))  # 중복제거
+# max_fre = []
+# max_cnt = 0
 
 # 30087
 N = int(input())
