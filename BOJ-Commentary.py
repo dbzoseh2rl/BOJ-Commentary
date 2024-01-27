@@ -1854,6 +1854,20 @@ print(li[n // 2])
 # max_fre = []
 # max_cnt = 0
 
+# for i in number:
+#     # print(i, li.count(i))
+#     if max_cnt == li.count(i):
+#         max_fre.append(i)
+#     elif max_cnt < li.count(i):
+#         max_fre = []
+#         max_fre.append(i)
+#         max_cnt = li.count(i)
+# if len(max_fre) > 1:  # 최빈값이 2개이상
+#     max_fre.sort()
+#     print(max_fre[1])
+# else:  # 최빈값 1개
+#     print(max_fre[0])
+
 # 30087
 N = int(input())
 
