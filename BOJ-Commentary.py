@@ -1868,6 +1868,9 @@ print(li[n // 2])
 # else:  # 최빈값 1개
 #     print(max_fre[0])
 
+# # 범위 - 최댓값-최솟값
+# print(max(li) - min(li))
+
 # 30087
 N = int(input())
 
