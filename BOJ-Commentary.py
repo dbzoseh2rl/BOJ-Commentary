@@ -1871,6 +1871,14 @@ print(li[n // 2])
 # # 범위 - 최댓값-최솟값
 # print(max(li) - min(li))
 
+# # 맞는풀이
+# import sys
+# from collections import Counter
+#
+# n = int(sys.stdin.readline())
+# li = []
+# for _ in range(n):
+#     li.append(int(sys.stdin.readline()))
 
 # 30087
 N = int(input())
