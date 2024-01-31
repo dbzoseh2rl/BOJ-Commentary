@@ -1906,3 +1906,12 @@ a, b = input().split()
 a = int(a[::-1])
 b = int(b[::-1])
 print(int(str(a+b)[::-1]))
+
+# 1427
+import sys
+# 인풋을 인트형 으로 짤라서 리스트 안에 넣기
+n = list(map(int, sys.stdin.readline().strip()))
+n.sort(reverse=True)
+print(''.join(str(i) for i in n))
+
+print("".join(sorted(list(input()))[::-1]))
