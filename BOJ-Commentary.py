@@ -1915,3 +1915,9 @@ n.sort(reverse=True)
 print(''.join(str(i) for i in n))
 
 print("".join(sorted(list(input()))[::-1]))
+
+# 2750
+# import sys
+# n = int(sys.stdin.readline())
+# s = [sys.stdin.readline().strip() for _ in range(n)]
+# print("\n".join(sorted(list(s))))
