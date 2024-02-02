@@ -1921,3 +1921,6 @@ print("".join(sorted(list(input()))[::-1]))
 # n = int(sys.stdin.readline())
 # s = [sys.stdin.readline().strip() for _ in range(n)]
 # print("\n".join(sorted(list(s))))
+
+# nums = map(int, input().split())
+# print(sum(sorted(nums)[::2]))
