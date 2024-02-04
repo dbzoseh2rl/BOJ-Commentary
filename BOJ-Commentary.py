@@ -1933,3 +1933,11 @@ print("".join(sorted(list(input()))[::-1]))
 #         if y % 2 == x % 2 and chess[x][y] == 'F':
 #             cnt += 1
 # print(cnt)
+
+# 10156
+# k, n, m = map(int, input().split())
+# print ((k*n)-m) if ((k*n)-m) > 0 else print(0)
+# # if (k*n)-m >0:
+# #     print((k*n)-m)
+# # else:
+# #     print(0)
