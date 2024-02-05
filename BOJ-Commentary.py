@@ -1941,3 +1941,15 @@ print("".join(sorted(list(input()))[::-1]))
 # #     print((k*n)-m)
 # # else:
 # #     print(0)
+
+# # 1159
+# li = sorted([input()[0] for _ in range(int(input()))])
+# # print(li)
+# s = set(li)
+# # print(s)
+# res = []
+# for c in s:
+#     if li.count(c) >= 5:
+#         res.append(c)
+# # print(res)
+# print(''.join(sorted(res)) if len(res) > 0 else "PREDAJA")
