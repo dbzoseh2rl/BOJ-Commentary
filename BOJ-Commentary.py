@@ -1966,3 +1966,9 @@ print("".join(sorted(list(input()))[::-1]))
 # # print(cnt)
 # # cnt + 1을 2로 나눈 나머지를 출력
 # print((cnt + 1) // 2)
+
+# 6840
+lst = []
+for _ in range(3) : lst.append(int(input()))
+lst.sort()
+print(lst[1])
