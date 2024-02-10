@@ -1223,3 +1223,10 @@ real_hour = total // 3600
 real_min = (total%3600)//60
 real_sec = total%60
 print("%02d:%02d:%02d" % (real_hour,real_min,real_sec))
+
+# 6749
+a = int(input())
+b = int(input())
+
+differ = b - a
+print(b + differ)
