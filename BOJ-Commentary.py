@@ -1972,3 +1972,13 @@ lst = []
 for _ in range(3) : lst.append(int(input()))
 lst.sort()
 print(lst[1])
+
+
+# # 11047
+# n, k = map(int, input().split())
+# x = [int(input()) for _ in range(n)]
+# cnt = 0
+# for i in reversed(range(n)):
+#     cnt += k // x[i]
+#     k = k % x[i]
+# print(cnt)
