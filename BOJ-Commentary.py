@@ -1981,3 +1981,6 @@ print(lst[1])
 #     cnt += k // x[i]
 #     k = k % x[i]
 # print(cnt)
+
+# # 14935
+# print("FA")
