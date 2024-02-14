@@ -1995,3 +1995,5 @@ print(lst[1])
 # f, *o = [sum(map(int, t.split('+'))) for t in input().split('-')]
 # print(f, sum(o))
 # print(f - sum(o))
+
+# s = map(int, [sys.stdin.readline().strip() for _ in range(n)])
