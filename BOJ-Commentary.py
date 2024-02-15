@@ -1990,3 +1990,8 @@ print(lst[1])
 # b = int(input())
 # print((a+b)//2)
 # print((a-b)//2)
+
+# 1541
+# f, *o = [sum(map(int, t.split('+'))) for t in input().split('-')]
+# print(f, sum(o))
+# print(f - sum(o))
