@@ -1997,3 +1997,7 @@ print(lst[1])
 # print(f - sum(o))
 
 # s = map(int, [sys.stdin.readline().strip() for _ in range(n)])
+
+# # 5622
+# string = input()
+# alphabet = 'ABCDEFGHIJKLMNOPQRSTUV'
