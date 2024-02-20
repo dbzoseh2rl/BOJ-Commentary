@@ -2003,3 +2003,4 @@ print(lst[1])
 # alphabet = 'ABCDEFGHIJKLMNOPQRSTUV'
 # num = '3334445556667778888999'
 # result = 0
+# for i in string:
