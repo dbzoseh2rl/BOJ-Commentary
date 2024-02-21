@@ -2004,3 +2004,4 @@ print(lst[1])
 # num = '3334445556667778888999'
 # result = 0
 # for i in string:
+#     if i in 'WXYZ':
