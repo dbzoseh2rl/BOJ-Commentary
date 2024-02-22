@@ -2005,3 +2005,4 @@ print(lst[1])
 # result = 0
 # for i in string:
 #     if i in 'WXYZ':
+#         result += 10
