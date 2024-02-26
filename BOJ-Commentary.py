@@ -2006,3 +2006,9 @@ print(lst[1])
 # for i in string:
 #     if i in 'WXYZ':
 #         result += 10
+
+# 5845
+word = input()
+
+for item in word[::-1]:
+    print(item, end='')
