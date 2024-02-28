@@ -2007,7 +2007,12 @@ print(lst[1])
 #     if i in 'WXYZ':
 #         result += 10
 
-# 5845
-word = input()
-for item in word[::-1]:
-    print(item, end='')
+# # 5845
+# word = input()
+# for item in word[::-1]:
+#     print(item, end='')
+
+# 2577
+x = int(input()) * int(input()) * int(input())
+for i in range(0, 10):
+    print(str(x).count(str(i)))
