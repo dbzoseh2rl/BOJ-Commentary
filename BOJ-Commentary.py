@@ -2016,3 +2016,16 @@ print(lst[1])
 x = int(input()) * int(input()) * int(input())
 for i in range(0, 10):
     print(str(x).count(str(i)))
+
+# 1015
+import sys
+input = sys.stdin.readline
+n = int(input())
+t = list(map(int, input().split()))
+s_li = sorted(t)
+li = []
+for i in range(n):
+    idx = s_li.index(t[i])
+    li.append(idx)
+    s_li[idx] = -1
+print(*li)  # 그냥 li 출력하면 리스트가 출력됨
