@@ -2043,3 +2043,5 @@ grade_points = {
     'F': 0.0
 }
 
+cnt = 0
+su = 0
