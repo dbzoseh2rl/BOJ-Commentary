@@ -2045,3 +2045,10 @@ grade_points = {
 
 cnt = 0
 su = 0
+for i in range(20):
+    a, b, c = input().split()
+    b = float(b)
+    if c != 'P':
+        cnt += b
+        su += b * grade_points.get(c)
+print('%.6f' % (su / cnt))
