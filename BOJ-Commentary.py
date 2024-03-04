@@ -2012,43 +2012,48 @@ print(lst[1])
 # for item in word[::-1]:
 #     print(item, end='')
 
-# 2577
-x = int(input()) * int(input()) * int(input())
-for i in range(0, 10):
-    print(str(x).count(str(i)))
+# # 2577
+# x = int(input()) * int(input()) * int(input())
+# for i in range(0, 10):
+#     print(str(x).count(str(i)))
 
-# 1015
-import sys
-input = sys.stdin.readline
-n = int(input())
-t = list(map(int, input().split()))
-s_li = sorted(t)
-li = []
-for i in range(n):
-    idx = s_li.index(t[i])
-    li.append(idx)
-    s_li[idx] = -1
-print(*li)  # 그냥 li 출력하면 리스트가 출력됨
+# # 1015
+# import sys
+# input = sys.stdin.readline
+# n = int(input())
+# t = list(map(int, input().split()))
+# s_li = sorted(t)
+# li = []
+# for i in range(n):
+#     idx = s_li.index(t[i])
+#     li.append(idx)
+#     s_li[idx] = -1
+# print(*li)  # 그냥 li 출력하면 리스트가 출력됨
+#
+# # 25206
+# grade_points = {
+#     'A+': 4.5,
+#     'A0': 4.0,
+#     'B+': 3.5,
+#     'B0': 3.0,
+#     'C+': 2.5,
+#     'C0': 2.0,
+#     'D+': 1.5,
+#     'D0': 1.0,
+#     'F': 0.0
+# }
+#
+# cnt = 0
+# su = 0
+# for i in range(20):
+#     a, b, c = input().split()
+#     b = float(b)
+#     if c != 'P':
+#         cnt += b
+#         su += b * grade_points.get(c)
+# print('%.6f' % (su / cnt))
 
-# 25206
-grade_points = {
-    'A+': 4.5,
-    'A0': 4.0,
-    'B+': 3.5,
-    'B0': 3.0,
-    'C+': 2.5,
-    'C0': 2.0,
-    'D+': 1.5,
-    'D0': 1.0,
-    'F': 0.0
-}
-
-cnt = 0
-su = 0
-for i in range(20):
-    a, b, c = input().split()
-    b = float(b)
-    if c != 'P':
-        cnt += b
-        su += b * grade_points.get(c)
-print('%.6f' % (su / cnt))
+# # 2577
+# x = int(input()) * int(input()) * int(input())
+# for i in range(0, 10):
+#     print(str(x).count(str(i)))
