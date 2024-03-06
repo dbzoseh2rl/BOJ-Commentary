@@ -2058,5 +2058,13 @@ print(lst[1])
 # for i in range(0, 10):
 #     print(str(x).count(str(i)))
 
+# 2693
+import sys
+input = sys.stdin.readline
+n = int(input())
+for _ in range(n):
+    li = list(map(int, input().split()))
+    li.sort()
+    print(li[-3])
 
 
