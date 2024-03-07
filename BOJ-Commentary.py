@@ -2067,4 +2067,4 @@ for _ in range(n):
     li.sort()
     print(li[-3])
 
-
+# 1934
