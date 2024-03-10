@@ -2068,4 +2068,12 @@ for _ in range(n):
     print(li[-3])
 
 # 1934
-
+# input = sys.stdin.readline
+# n = int(input())
+# li = []
+# for i in range(n):
+#     a, b = map(int, input().split())
+#     while a == b:
+#         x = a * a
+#         y = b * b
+#         break
