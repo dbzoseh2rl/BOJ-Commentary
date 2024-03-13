@@ -2082,3 +2082,6 @@ print(lst[1])
 print(bin(int(input(), 8))[2:])  # [2:] = 앞에서부터 두번째부터
 print(format((int(input(), 8)), 'b')) # 접두어 빼고싶으면 그냥 b 붙이면 #b
 
+# 1373
+# print(bin(int(input(), 8))[2:])  # [2:] = 앞에서부터 두번째부터
+# print(format((int(input(), 2)), 'l'))
