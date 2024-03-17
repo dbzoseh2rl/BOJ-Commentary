@@ -2089,3 +2089,4 @@ print(format((int(input(), 8)), 'b')) # 접두어 빼고싶으면 그냥 b 붙�
 # 10811
 n, b = input().split()
 print(int(n, int(b)))
+
