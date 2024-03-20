@@ -2093,9 +2093,10 @@ print(int(n, int(b)))
 # 1173
 import sys
 input = sys.stdin.readline
-
 N, m, M, T, R = map(int, input().split())
 
 time = total = 0
 heart = m
+
+
 
