@@ -2098,3 +2098,4 @@ N, m, M, T, R = map(int, input().split())
 
 time = total = 0
 heart = m
+
