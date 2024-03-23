@@ -2098,5 +2098,10 @@ N, m, M, T, R = map(int, input().split())
 time = total = 0
 heart = m
 
-
+# 1225
+import sys
+a, b = map(list, sys.stdin.readline().split())
+a = list(map(int, a))
+b = list(map(int, b))
+print(sum(a) * sum(b))
 
